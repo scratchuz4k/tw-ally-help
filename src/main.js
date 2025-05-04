@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 let item = document.getElementById("ally_content")
-
+console.log("Testing")
 if (item) {
     debugger
     let newDiv = document.createElement("div");
