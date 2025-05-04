@@ -15,12 +15,4 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  build: {
-    rollupOptions: {
-      output: {
-        entryFileNames: 'tw-ally-help.js', // Set your desired output filename here
-        // You can also customize chunkFileNames and assetFileNames if needed
-      }
-    }
-  }
 })
