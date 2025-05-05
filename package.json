@@ -2,14 +2,16 @@
   "name": "tw-ally-help",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "vite",
+    "mix": "mix",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "laravel-mix": "^6.0.49",
+    "vue": "^3.5.13",
+    "vue-loader": "^17.4.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
